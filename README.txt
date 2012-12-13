@@ -1,0 +1,2 @@
+This repo contains our coolio Inceptus team website, that may or may not be implemented on the actual server.
+All images, text, and corporate presences contained herein belong to their respective owners, and should not be reproduced in full or in part without explicit permission. Thank you.
