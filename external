@@ -1,0 +1,60 @@
+#NavBar
+{
+font-family: Calibri;
+background-color: #FFFFFF;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+padding-bottom: 1px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+min-width: 940px;
+max-width: 1930px;
+width: 80%;
+}
+
+body
+{
+background-image: url('C:/Users/Katrina/Desktop/inceptus/graylinen.jpg');
+background-attachment: fixed;
+}
+
+#content
+{
+font-family: Calibri;
+background-color: #FFFFFF;
+margin-left: auto;
+margin-right: auto;
+border-radius: 5px;
+text-align: left;
+padding-left: 30px;
+padding-right: 30px;
+text-indent: 25px;
+padding-top: 1px;
+padding-bottom: 10px;
+min-width: 900px;
+max-width: 1900px;
+width = 80%;
+}
+
+#center
+{
+text-align: center;
+}
+
+#logoTable
+{
+text-align: center;
+min-width: 900px;
+max-width: 1900px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+td
+{
+min-width: 322px;
+max-width: 655px;
+}
