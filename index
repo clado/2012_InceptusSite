@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Team Inceptus</title>
+
+<!--
+ * inceptus is a Wayzata funded team.
+ * picture credits here.
+-->
+
+<link rel = "stylesheet" type = "text/css" href = "external.css" >
+
+</head>
+
+<body>
+
+
+<div id = "containerDIV" >
+
+<div id = "navBar" >
+
+  <table id = "logoTable" >
+	
+	<tr>
+	<td><img src = "C:/Users/Katrina/Desktop/inceptus/logo.png" alt = "inceptus, team 2264" style = "text-align: left;" length = "100" width = "250" /></td>
+	
+	<td><img src = "C:/Users/Katrina/Desktop/inceptus/footer images/frc_logo.jpg" alt = "FRC: First Robotics" style = "text-align: center;" length = "100" width = "100" id = "center" /></td>
+	
+	<td><img src = "C:/Users/Katrina/Desktop/inceptus/footer images/Wayzata_Public_Schools.png" alt = "Wayzata Public Schools" style = "text-align: center;" length = "100" width = "250" /></td>
+	</tr>
+	
+	</table>
+
+	<p style = "text-align: center;" >Home | Sponsorship | Contact Us | Mission Statement | Bios | Search</p>
+	
+</div>
+
+<div id = "sideBar" >
+	<!--
+	* This DIV is empty.
+	-->
+</div>
+
+</br>
+
+<div id = "content" >
+
+	<p>This is the body. I need to say something cool here that can be used for future reference, and can also make the paragraph more than one line. Bla, bla, bla. Nothing really to write here. Inceptus is awesome. Yeeeeeeaaaaaaah.</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
