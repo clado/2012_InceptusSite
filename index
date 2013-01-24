@@ -13,12 +13,11 @@
 
 <body>
 
-
-<div id = "containerDIV" >
+<div id = "container">
 
 <div id = "navBar" >
 
-  <table id = "logoTable" >
+	<table id = "logoTable" >
 	
 	<tr>
 	<td><img src = "C:/Users/Katrina/Desktop/inceptus/logo.png" alt = "inceptus, team 2264" style = "text-align: left;" length = "100" width = "250" /></td>
@@ -30,21 +29,15 @@
 	
 	</table>
 
-	<p style = "text-align: center;" >Home | Sponsorship | Contact Us | Mission Statement | Bios | Search</p>
+	<div style = "text-align: center;" id = "navigationdawg" >Home | Sponsorship | Contact Us | <a href = "calender.html">Calender</a> | Bios | <a href = "blog.html">Blog</a></div>
 	
 </div>
 
-<div id = "sideBar" >
-	<!--
-	* This DIV is empty.
-	-->
-</div>
 
-</br>
 
-<div id = "content" >
+<div id = "content">
 
-	<p>This is the body. I need to say something cool here that can be used for future reference, and can also make the paragraph more than one line. Bla, bla, bla. Nothing really to write here. Inceptus is awesome. Yeeeeeeaaaaaaah.</p>
+	<p id = "firstParagraph">This is the body. I need to say something cool here that can be used for future reference, and can also make the paragraph more than one line. Bla, bla, bla. Nothing really to write here. Inceptus is awesome. Yeeeeeeaaaaaaah.</p>
 
 </div>
 
@@ -53,3 +46,27 @@
 </body>
 
 </html>
+
+<!--//second js
+
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<5)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",5000)
+}
+slideit()
+//-->
+<!--
+</script>
+-->
