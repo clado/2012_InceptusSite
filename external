@@ -5,12 +5,6 @@ background-color: #FFFFFF;
 margin-left: auto;
 margin-right: auto;
 border-radius: 5px;
-padding-bottom: 1px;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-min-width: 940px;
-max-width: 1930px;
 width: 80%;
 }
 
@@ -24,18 +18,13 @@ background-attachment: fixed;
 {
 font-family: Calibri;
 background-color: #FFFFFF;
-margin-left: auto;
-margin-right: auto;
 border-radius: 5px;
 text-align: left;
-padding-left: 30px;
-padding-right: 30px;
 text-indent: 25px;
-padding-top: 1px;
-padding-bottom: 10px;
-min-width: 900px;
-max-width: 1900px;
-width = 80%;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+
 }
 
 #center
@@ -46,15 +35,106 @@ text-align: center;
 #logoTable
 {
 text-align: center;
-min-width: 900px;
-max-width: 1900px;
-margin-left: auto;
-margin-right: auto;
-
+width: 100%;
 }
 
 td
 {
-min-width: 322px;
-max-width: 655px;
+min-width: 30%;
+}
+
+#firstParagraph{
+padding: 30px;
+}
+
+#navigationdawg{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#blogOpening{
+padding-top: 30px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+#blog{
+text-align: justify;
+background-color: white;
+margin: 10px;
+padding: 10px;
+position: absolute;
+margin-left: 210px;
+max-width: inherit;
+border-radius: 5px;
+}
+
+#blogClosing{
+padding-bottom: 30px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+#header{
+padding-left: 25px;
+padding-right: 25px;
+text-align: center;
+padding-top: 30px;
+font-size: 30px;
+text-indent: 0px;
+}
+
+#sideNavBar{
+min-height: 100%;
+background-color: blue;
+border-radius: 5px;
+float: left;
+width: 200px;
+text-align: center;
+margin-right: 10px;
+text-indent: 0px;
+}
+
+table{
+border: 5px;
+padding: 0px;
+margin: 0px;
+border-color: white;
+}
+
+#nav{
+max-width: 200px;
+}
+
+#calenderHeading{
+text-align: center;
+text-indent: 0px;
+}
+
+#calender{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+width: 100%;
+}
+
+#cal{
+height: 100px;
+vertical-align: text-top;
+text-indent: 0px;
+text-align: right;
+}
+
+#key{
+text-align: center;
+
+}
+
+#today{
+height: 100px;
+vertical-align: text-top;
+text-indent: 0px;
+text-align: right;
+background-color: #3496E0;
 }
