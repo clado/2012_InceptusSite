@@ -4,17 +4,82 @@ background-image: url('C:/Users/Katrina/Desktop/inceptus/graylinen.jpg');
 background-attachment: fixed;
 }
 
+#wrapper{
+  position: static;
+	width: 100%;
+	min-height: 1000px;
+}
+
 #content
 {
-font-family: Calibri;
-background-color: #FFFFFF;
-border-radius: 5px;
-text-align: left;
-text-indent: 25px;
-margin-left: auto;
-margin-right: auto;
-width: 80%;
+  font-family: Calibri;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	position: relative;
+	width: 90%;
+	max-width: 1200px;
 
+}
+
+#blog{
+  text-align: justify;
+	text-align: left;
+	text-indent: 25px;
+	background-color: #FFF;
+	margin: 10px;
+	position: absolute;
+	border-radius: 3px;
+	top: -10px;
+	padding: 27px;
+	max-width: 1000px;
+	min-width: 500px;
+	min-height: 1000px;
+	margin-left: 240px;
+}
+
+#sideNavBar{
+	min-height: 150px;
+	background-color: #FFF;
+	border-radius: 3px;
+	width: 200px;
+	position: relative;
+	margin-right: 10%;
+	padding: 3px;
+}
+
+#sideNavBar ul{
+	padding: 0px;
+	font-size: 13pt;
+	color: #FFF;
+	list-style: none;
+	text-decoration: none;
+	margin-left: 30px;
+}
+
+#sideNavBar ul li #tier1{
+	display: block;
+	margin-top: 5px;
+	padding: 3px;
+	text-indent: 25px;
+	background-color: #1A69A9;
+	width: 135px;
+}
+
+#sideNavBar ul li:hover #tier1{
+	background-color: #CCC;
+}
+
+
+#sideNavBar ul li ul li a{
+	color: #1A69A9;
+	display: block;
+	padding: 3px;
+}
+
+#sideNavBar ul li ul li:hover a{
+	color: #000;
+	font-weight: bold;
 }
 
 #center
